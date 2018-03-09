@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 .overview {
-	font-family: 'Source Code Pro', monospace;
-	text-transform: uppercase;
-	font-size: 1.4rem;
-	font-weight: 400;
-		padding: 6px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 6px;
+
+
 	text-emphasis: 
 }
 
@@ -27,17 +28,20 @@ img {
 	height: auto;
 }
 .label {
-	color: white;
-	text-shadow:  1px 1px 1px black;
-	font-family: 'Source Code Pro', monospace;
-	text-transform: uppercase;
-	text-align: center;
-  	font-size: 2.5rem;
-	font-weight: 600;
-	border-radius: 2px;
-	padding: 6px;
-	line-height: 5rem;
-    background: rgba(89, 151, 1, 0.5); 
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border-radius: 2px;
+    padding-top: 0px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 0px;
+    line-height: 5rem;
+    background: rgba(89, 151, 1, 0.5);
 }
 
 .imgcontainer {
@@ -55,6 +59,17 @@ img {
 	z-index: 600;
 }
 
+
+.overlay {
+    position: fixed;
+    text-align: center;
+    /*    width: 50%;*/
+    top: 200px;
+    right: 60px;
+    z-index: 600;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 1px black;
+}
 
 .container-fluid {
 	padding: 0 !important;
