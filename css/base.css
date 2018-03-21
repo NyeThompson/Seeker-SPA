@@ -178,3 +178,20 @@ img {
 }
 
 */
+.background {
+	/*
+	72 px is the height of the header, subtracting this means we dont get a vertical scrollbar
+	*/
+	height: calc(100% - 72px);
+	/*background: url(http://s3.amazonaws.com/backdoored-io-images/wp-content/uploads/213.153.78.2372017-12-04T123622.035349.jpg) no-repeat;
+	background-size: cover;*/
+	overflow: hidden;	
+	
+	
+	display: flex;
+	align-items: start;
+}
+
+.background img {
+	flex: 1;
+}
