@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro| Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro|Source+Code+Pro');
 
 /* UNIVERSAL */
 
@@ -33,6 +33,7 @@ height: 100%;
 }
 
 .overviewlg {
+	font-family: 'Source Code Pro', monospace;
 	text-transform: uppercase;
 	font-size: 1.8rem;
 	font-weight: 400;
@@ -53,11 +54,7 @@ height: 100%;
 }
 
 .overlay {
-	position: fixed;
 	text-align: center;
-	top: 135px;
-	left: 60px;
-	right: 60px;
 	z-index: 600;
 	font-size: 1.4rem;
 }
@@ -72,10 +69,11 @@ height: 100%;
 	72 px is the height of the header, subtracting this means we dont get a vertical scrollbar
 	*/
 	height: calc(100% - 72px);
-	/*background: url(http://s3.amazonaws.com/backdoored-io-images/wp-content/uploads/213.153.78.2372017-12-04T123622.035349.jpg) no-repeat;
-	background-size: cover;*/
+	background: url(http://s3.amazonaws.com/backdoored-io-images/wp-content/uploads/213.153.78.2372017-12-04T123622.035349.jpg) no-repeat;
+	background-size: cover;
 	overflow: hidden;	
-	
+
+	padding: 60px;
 	
 	display: flex;
 /*	align-items: start;*/
