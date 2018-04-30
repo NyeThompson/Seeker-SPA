@@ -55,13 +55,16 @@ height: 100%;
 
 .overlay {
 	text-align: center;
-	z-index: 600;
+	z-index: 500;
 	font-size: 1.4rem;
 }
 
 .homenav{
-	float: right;
-	padding: 10px 60px;
+	position: fixed;
+    right:20px;
+    top:30px;
+	z-index: 600;
+	/*float: right;	padding: 10px 60px;	z-index: 600;*/
 }
 
 .background {
