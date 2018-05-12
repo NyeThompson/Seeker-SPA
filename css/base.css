@@ -41,10 +41,10 @@ height: 100%;
 }
 
 .label {
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 1px 3px 2px red;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	font-weight: 600;
 	border-radius: 1px;
 	padding: 0px 6px;
@@ -54,7 +54,7 @@ height: 100%;
 }
 
 .overlay {
-	text-align: center;
+	text-align: left;
 	z-index: 500;
 	font-size: 1.4rem;
 }
